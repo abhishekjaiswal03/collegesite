@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+    padding:5px;
+}
+
+
+
+ button{
+   
+    border:2px solid black;
+    border-radius: 10px;
+    background-color: aqua;
+    color: black;
+    font-size: larger;
+    width:20%;
+    margin-left:2%;
+    cursor: pointer;
+}
+
+.buttons a{
+    text-decoration: none;
+    cursor: pointer;
+
+} 
+
+.buttons button:hover{
+    background-color: rgb(174, 243, 243);
+    /* width:21%; */
+    cursor:pointer;
+    color: black;
+    cursor: pointer;
+
+}
+
+h1{
+    background-color:black;
+    color:white;
+    width:95% ;
+    text-align: center;
+    padding: auto;
+    margin:auto;
+}
+
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: justify;
+}
+
+h3{
+    background-color: orangered;border-radius: 5px;text-align: center;width: 50%;margin-left:20%;
+}
+
+.box{
+    padding:2%;
+    margin:2% 5%;
+    background-color: rgba(245, 247, 166, 0.664);
+    border:1px solid grey;
+    border-radius: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+    .button{
+        flex-direction: column;
+    }
+
+    button{
+        width:80%;
+        margin-left: 1%;
+        margin-top: 2%;
+        font-size: smaller;
+    }
+
+    .box{
+        padding:2px;
+        margin:3px 0;
+
+    }
+
+    p{
+        font-size: small;
+    }
+    h3{
+        width:90%;
+        margin-left:5%;
+    }
+
+    .box li{
+        font-size: small;
+    }
+
+    
+  }

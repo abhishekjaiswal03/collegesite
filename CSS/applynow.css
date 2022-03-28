@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+}
+
+
+.heading {
+  /* font-weight: bold; */
+  color: white;
+  background-color: rgb(252, 94, 22);
+  width: 100%;
+  margin-top: 0;
+  border: 2px solid black;
+  /* height:40px; */
+}
+
+.heading p {
+  text-align: center;
+  font-size: xx-large;
+  font: bolder;
+  margin: 2px;
+}
+
+.container-main {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 20px;
+  grid-auto-rows: minmax(100px, auto);
+  column-gap: 20px;
+  row-gap: 40px;
+  /* margin-left:; */
+  padding: 1px;
+  background-color: lightgrey;
+  margin:5px;
+  padding:10px ;
+  /* background-color:transparent; */
+}
+#adress {
+  width: 100%;
+}
+
+.container2{
+    margin-left: 10%;
+}
+
+.upload{
+    padding:5% auto;
+    display: flex;
+    flex-direction: row;
+    
+}
+#uploadfile{
+    position: relative;
+    bottom:-20px;
+    margin-left:10%;
+}
+
+#submit{
+    border:2px solid black;
+    border-radius: 20px;
+    width:30%;
+    color:black;
+    background-color: rgb(255, 51, 0);
+    font-weight: bolder;
+    font-size: x-large;
+    padding:5px;
+    margin-top: 7%;
+    margin-left: 5%;
+
+}
+
+#submit:hover{
+    border:2px solid rgb(255, 51, 0);
+    background-color: green;
+    width:33%;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 991px) {
+  .container-main{
+    grid-template-columns: 1fr;
+    row-gap: 5px;
+  }
+
+  .container2{
+      margin-left: 2%;
+  }
+
+  #submit{
+    width:50%;
+    font-size: small;
+    margin-left: 15%;
+  }
+  #uploadfile{
+    margin-left: 1%;
+  }
+}

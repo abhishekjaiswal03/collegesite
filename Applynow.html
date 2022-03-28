@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admission form</title>
+    <link rel="stylesheet" href="./CSS/applynow.css">
+  </head>
+  <body>
+    <div class="heading">
+      <p>Admission form online</p>
+    </div>
+
+    <div class="container-main">
+      <div class="container1">
+        <form action="">
+          <h2>PLEASE FILL THE FORM CAREFULLY</h2>
+          <h3>Personal Information</h3>
+          <p>Name: <input type=" text" name="name" id="text" required   /></p>
+          <p>
+            Father' Name: <input type="text" name="father-name" id="text" required />
+          </p>
+          <p>
+            Mother's Name: <input type="text" name="mothers-name" id="text" required/>
+          </p>
+          <p>DOB: <input type="date" name="dof" id="" /></p>
+          <p>Phone: <input type="number" name="phone" id="phone" required /></p>
+
+          <fieldset>
+            <legend>Gender</legend>
+            <p>
+              Male <input type="radio" name="gender" id="male" />Female
+              <input type="radio" name="gender" id="Female" />
+            </p>
+          </fieldset>
+          <p>Address line 1: <input type="text" name="adress" id="adress" /></p>
+          <p>Address line 1: <input type="text" name="adress" id="adress" /></p>
+          <p>Address line 1: <input type="text" name="adress" id="adress" /></p>
+        </form>
+
+        <h3>School Educational Details</h3>
+        <form action="">
+          <h4>class 12 <sup>th</sup></h4>
+          <p>School Name: <input type="text" name="sname" id="sname" /></p>
+          <h4>12 board:</h4>
+          <p><input type="radio" name="sname" id="board" />CBSE</p>
+          <p>
+            <input type="radio" name="sname" id="board" value="CGBSE" />CGBSE
+          </p>
+          <p>
+            <input type="radio" name="sname" id="board" value="other" /> Other
+            Boards
+          </p>
+
+          
+        </form>
+      </div>
+
+      <div class="container2"> <h4>class 10 <sup>th</sup></h4>
+        <p>School Name: <input type="text" name="sname" id="sname" /></p>
+        <h4>10 board:</h4>
+        <p><input type="radio" name="sname" id="board" />CBSE</p>
+        <p>
+          <input type="radio" name="sname" id="board" value="CGBSE" />CGBSE
+        </p>
+        <p>
+          <input type="radio" name="sname" id="board" value="other" /> Other
+          Boards
+        </p>
+          <form action="">
+
+          </form>
+          <h3>FOR COLLEGE</h3>
+        <form action="">
+          <h4>Choose course</h4>
+          <p><input type="radio" name="course" id="course" />Bsc</p>
+          <p><input type="radio" name="course" id="course" />BCA</p>
+          <p><input type="radio" name="course" id="course" />B.COM</p>
+          <p><input type="radio" name="course" id="course" />DCA</p>
+
+          <h4> Please upload given document</h3>
+          <div class="upload">
+              <p>1. 12 <sup>th</sup> marksheet:</p><input type="file" name="uploadfile" id="uploadfile" required>
+          </div>
+
+          <div class="upload">
+            <p>2. 10 <sup>th</sup> marksheet:</p><input type="file" name="uploadfile" id="uploadfile" required>
+        </div>
+
+        <div class="upload">
+            <p>3. Caste Certificate:</p><input type="file" name="uploadfile" id="uploadfile" required>
+        </div>
+
+        <input type="submit" id="submit" value="Submit form">
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
